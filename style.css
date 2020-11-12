@@ -1,0 +1,91 @@
+body{
+    background-image: url("1.jpg");
+    color: red;
+    font-size: x-large;
+    
+}
+.wc
+{
+    text-align:center;
+    color: rebeccapurple;
+
+}
+div#audio {
+	display: none;
+	overflow: hidden;
+}
+.jadu
+{
+    color:black;
+    text-align: center;
+    font-family: Magneto;
+    animation:4s infinite magic;
+}
+@keyframes magic
+{
+    10%{ background-color: rgba(206, 205, 205, 0.76);}
+    30%{ background-color:  rgb(173, 49, 18);}
+    50%{ background-color: rgb(219, 135, 24);}
+    70%{ background-color: rgb(218, 200, 45);}
+    90%{ background-color: rgb(206, 98, 25);   } 
+}
+@font-face
+{
+    font-family: Custom;
+    src:url('C:\Users\himanshu\Desktop\DIWALI GREETING')
+}
+div{
+    font-size: medium;
+}
+#wish {
+    opacity:1;
+    color:rgb(228, 47, 173);
+    background-color: rgb(51, 47, 47);
+    text-shadow: 2px 2px black;
+    
+}
+#wish:hover{
+    opacity:1;
+    background-color: rgb(51, 47, 47);
+    text-shadow: 3px 3px black;
+    animation:2s infinite w;
+    box-shadow:10px 10px black;
+}
+@keyframes w
+{
+    10%{color:red;}
+    30%{color: blue; }
+    50%{color: yellow;}
+    70%{ color: green;}
+}
+.footer
+{
+    background-color: rgb(54, 122, 119);
+    box-shadow:5px 5px black;
+    color: whitesmoke;
+    opacity:0.4;
+}
+.footer:hover
+{
+    background-color: rgb(54, 122, 119);
+    box-shadow:5px 5px black;
+    color: whitesmoke;
+    opacity:1;
+    box-shadow: 3px 3px black;
+}
+.url
+{
+    opacity:0.4;
+    position: relative;
+}
+.url:hover
+{
+    opacity:1;
+    position: relative;
+}
+#tb
+{
+    opacity:0.6;
+    position: relative;
+}
+
